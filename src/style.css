@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #000080;
+}
+
+header {
+    background-color: #C4C4C4;
+    height: 80px;
+
+    color: #000080;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    color: #C4C4C4;
+    
+    font-size: 3em;
+    height: 10em;
+}
+
+.bin_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dec_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
