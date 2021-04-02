@@ -18,7 +18,3 @@ function converter() {
         return true;
     }
 }
-
-// binary.split('').map((char) => {
-//     if (char !== '0' && char !== '1') return alert('Please, enter a binary number');
-// });
