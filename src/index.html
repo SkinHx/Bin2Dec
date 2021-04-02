@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bin2Dec</title>
 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+
     <link rel="stylesheet" href="./style.css">
 
     <script src="./index.js"></script>
 </head>
+
 <body>
     <header>
         <h1>Bin2Dec</h1>
     </header>
-    
+
     <section>
         <div class="bin_container">
-            <p>Binário</p>
-            <input type="text">
+            <p>Binary</p>
+            <input type="text" id="bin_input" maxlength="8">
         </div>
+
         <div class="dec_container">
             <p class="dec">Decimal</p>
-            <input type="text">
+            <input type="text" id="dec_input" readonly>
+        </div>
+
+        <div class="button">
+            <button onclick="converter()">Convert</button>
         </div>
     </section>
 </body>
+
 </html>
