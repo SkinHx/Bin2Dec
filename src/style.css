@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    height: 100px;
+    height: 10rem;
     
     background-color: #C4C4C4;
     
@@ -60,6 +60,8 @@ p {
 }
 
 input {
+    height: 5rem;
+    width: 90%;
     font-size: 5em;
 
     background-color: #C4C4C4;
@@ -75,8 +77,8 @@ input {
 }
 
 button {
-    height: 50px;
-    width: 250px;
+    height: 5rem;
+    width: 25rem;
     font-size: 40px;
     
     background-color: #C4C4C4;
@@ -87,6 +89,6 @@ button {
 }
 
 button:hover {
-    height: 60px;
-    width: 260px;
+    height: 6rem;
+    width: 26rem;
 }
